@@ -1,0 +1,9 @@
+// EchoPad resources: application icon plus the manifest that turns on common
+// controls v6 and per-monitor DPI awareness.
+#include <windows.h>
+#include "resource.h"
+
+IDI_APPICON ICON "echopad.ico"
+
+// CREATEPROCESS_MANIFEST_RESOURCE_ID (1), RT_MANIFEST (24)
+IDR_MANIFEST 24 "echopad.manifest"
